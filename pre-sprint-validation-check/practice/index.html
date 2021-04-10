@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="form">
+    <label class="input-form">
+      <span>First name</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+      </span>
+      <span class="errorMsg"></span>
+    </label>
+
+    <lable class="input-form passwordform">
+      <span>Password</span>
+      <input type="text password" class="password">
+      <span class="message">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+      </span>
+      <span class="PwdErrorMsg"></span>
+    </lable>
+
+    <label class="input-form ConfirmPasswordForm">
+      <span>Confirm password</span>
+      <input type="text ConfirmPassword" class="ConfirmPassword">
+      <span class="message">
+        <i class="fa fa-times" aria-hidden="true"></i>
+        <span class="ConfirmErrorMsg"></span>
+      </span>
+    </label>
+  </div>
+
+  <span id="invalid-message"></span>
+
+  <button id="btn-signup">회원가입</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide</title>
+  <link rel="stylesheet" href="../lib/css/font-awesome.min.css">
+  <link rel="stylesheet" href="guide.css">
+</head>
+
+<body>
+
+  <div class="form">
+    <label class="input-form">
+      <span>First name</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+      </span>
+    </label>
+
+    <label class="input-form valid">
+      <span>Phone number</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-check-circle" aria-hidden="true"></i>
+      </span>
+    </label>
+
+    <label class="input-form invalid">
+      <span>Confirm phone number</span>
+      <input type="text">
+      <span class="message">
+        <i class="fa fa-times" aria-hidden="true"></i>
+        Those phone numbers don't match. Please check and try again.
+      </span>
+    </label>
+  </div>
+
+  <div id="invalid-message"></div>
+
+  <script src="guide.js"></script>
+
+</body>
+
+</html>
