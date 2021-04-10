@@ -1,0 +1,40 @@
+* {
+    font-size: 50px;
+}
+#inputText {
+    margin-left: 50px;
+}
+
+#search {
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#box{
+    background-color: skyblue;
+    width: 1000px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+#city {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#weather {
+    text-align: center;
+    font-size: 25px;
+}
+
+#temp {
+    text-align: center;
+    font-size: 60px;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
