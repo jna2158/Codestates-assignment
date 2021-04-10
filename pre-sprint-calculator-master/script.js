@@ -66,7 +66,6 @@ buttons.addEventListener('click', function (event) {
 
     if (action === 'calculate') {
       let result = calculate(firstOperend.textContent, operator.textContent, secondOperend.textContent);
-      //let result = 12
       calculatedResult.textContent = result;
       console.log('계산 버튼');
     }
