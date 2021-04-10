@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" id="container">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <div id="greeting">twittler</div>
+  <div id="write-section">
+     <div class="write">Username</div>
+     <input type="text" class="writeUserName"></input>
+     <div class="write">Message</div>
+     <input type="text" class="writeMessage"></input><br></br>
+     <button class="submit">tweet!</button>
+  </div>
+  
+  <div id="comment-section">
+     <div id="refresh-section">
+       <button class="refresh"><img src="refresh.png" class="image"></img>check new tweets</button>
+     </div>
+     <div id="commentList"> 
+     </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
