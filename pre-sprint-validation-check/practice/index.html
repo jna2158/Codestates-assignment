@@ -5,42 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../lib/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <div class="form">
-    <label class="input-form">
-      <span>First name</span>
+    <label class="input-form" id="input-id">
+      <span>ID</span>
       <input type="text">
-      <span class="message">
-        <i class="fa fa-check-circle" aria-hidden="true"></i>
-      </span>
-      <span class="errorMsg"></span>
+      <i class="fa" aria-hidden="true"></i>
+      <span class="message"></span>
     </label>
 
-    <lable class="input-form passwordform">
-      <span>Password</span>
-      <input type="text password" class="password">
-      <span class="message">
-        <i class="fa fa-check-circle" aria-hidden="true"></i>
-      </span>
-      <span class="PwdErrorMsg"></span>
-    </lable>
+    <label class="input-form" id="input-pw">
+      <span>PASSWORD</span>
+      <input type="password">
+      <i class="fa" aria-hidden="true"></i>
+      <span class="message"></span>
+    </label>
 
-    <label class="input-form ConfirmPasswordForm">
-      <span>Confirm password</span>
-      <input type="text ConfirmPassword" class="ConfirmPassword">
-      <span class="message">
-        <i class="fa fa-times" aria-hidden="true"></i>
-        <span class="ConfirmErrorMsg"></span>
-      </span>
+    <label class="input-form" id="input-pw-re">
+      <span>Confirm Password</span>
+      <input type="password">
+      <i class="fa" aria-hidden="true"></i>
+      <span class="message"></span>
     </label>
   </div>
 
-  <span id="invalid-message"></span>
+  <div id="invalid-message"></div>
 
-  <button id="btn-signup">회원가입</button>
+  <button id="btn-signup">Sign Up</button>
 
   <script src="script.js"></script>
 </body>
