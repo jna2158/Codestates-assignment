@@ -1,6 +1,3 @@
-/* TODO : CSS파일을 편집하여 원하는 스타일의 계산기를 만들어보세요 :) */
-
-/* global */
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +10,6 @@
 body {
   background-image: url('./data/codestates-motif.png');
 }
-
-/*
-  Calculator styles
-*/
 
 .container {
   height: 100vh;
