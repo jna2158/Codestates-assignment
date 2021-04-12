@@ -13,11 +13,13 @@ function getData() {
       return resp.json() //JSON 형식의 텍스트를 자바스크립트 객체로 바꾸고
     })
     .then(function (json) { //하고 싶은 일을 한다.
-      let IconURL = `http://openweathermap.org/img/wn/01d.png`;
+      const weatherIcon = document.querySelector('#img');
+      const weatherIconId = json.weather[0].icon;
+      const iconUrl = `http://openweathermap.org/img/wn/${weatherIconId}.png`;
+      weatherIcon.setAttribute('src', iconUrl);
       city.textContent = json.name;
       weather.textContent = json.weather[0].main;
       temp.textContent = (json.main.temp - 273.15).toFixed(1) + "°";
-      img.setAttribute("src", IconURL);
     });
 }
 
