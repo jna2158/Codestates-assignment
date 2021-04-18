@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-13T08:02:18.480Z",
+    "end": "2021-04-13T08:02:18.495Z",
+    "duration": 15
+  },
+  "tests": [
+    {
+      "title": "element 객체가 존재해야 합니다",
+      "fullTitle": "functional blinkyDancer element 객체가 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setPosition 메소드를 사용할 수 있어야 합니다",
+      "fullTitle": "functional blinkyDancer setPosition 메소드를 사용할 수 있어야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pseudoclassical 한 방법으로 구현되어야 합니다",
+      "fullTitle": "pseudoclassical blinkyDancer pseudoclassical 한 방법으로 구현되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "element 객체가 존재해야 합니다",
+      "fullTitle": "pseudoclassical blinkyDancer element 객체가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setPosition 메소드를 사용할 수 있어야 합니다",
+      "fullTitle": "pseudoclassical blinkyDancer setPosition 메소드를 사용할 수 있어야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "class keyword를 사용해서 구현되어야 합니다",
+      "fullTitle": "es6 class blinkyDancer class keyword를 사용해서 구현되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "element 객체가 존재해야 합니다",
+      "fullTitle": "es6 class blinkyDancer element 객체가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setPosition 메소드를 사용할 수 있어야 합니다",
+      "fullTitle": "es6 class blinkyDancer setPosition 메소드를 사용할 수 있어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "element 객체가 존재해야 합니다",
+      "fullTitle": "functional blinkyDancer element 객체가 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setPosition 메소드를 사용할 수 있어야 합니다",
+      "fullTitle": "functional blinkyDancer setPosition 메소드를 사용할 수 있어야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "pseudoclassical 한 방법으로 구현되어야 합니다",
+      "fullTitle": "pseudoclassical blinkyDancer pseudoclassical 한 방법으로 구현되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "element 객체가 존재해야 합니다",
+      "fullTitle": "pseudoclassical blinkyDancer element 객체가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setPosition 메소드를 사용할 수 있어야 합니다",
+      "fullTitle": "pseudoclassical blinkyDancer setPosition 메소드를 사용할 수 있어야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "class keyword를 사용해서 구현되어야 합니다",
+      "fullTitle": "es6 class blinkyDancer class keyword를 사용해서 구현되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "element 객체가 존재해야 합니다",
+      "fullTitle": "es6 class blinkyDancer element 객체가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "setPosition 메소드를 사용할 수 있어야 합니다",
+      "fullTitle": "es6 class blinkyDancer setPosition 메소드를 사용할 수 있어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
