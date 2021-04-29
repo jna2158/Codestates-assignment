@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+    <div id="main">
+      <h1>chatterbox</h1>
+      Room: <select id="roomName">
+        <option value="0">allchats</option>
+        <option value="1">room1</option>
+        <option value="2">room2</option>
+        <option value="3">room3</option>
+      </select>
+      <div id="send">
+        <form class="submit">
+          <input type="text" class="inputUser" />
+          <textarea class="inputChat"></textarea>
+          <button type="submit" class="post">post</button>
+          <button class="clear">clear</button>
+        </form>
+      </div>
+    </div>
+    <div id="chats"></div>
+    <!-- your scripts -->
+    
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

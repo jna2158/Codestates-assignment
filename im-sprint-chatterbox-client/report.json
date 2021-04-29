@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-29T13:09:52.642Z",
+    "end": "2021-04-29T13:09:52.663Z",
+    "duration": 21
+  },
+  "tests": [
+    {
+      "title": "app이라는 이름의 객체가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client app이라는 이름의 객체가 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "init 이라는 이름의 메소드가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client init init 이라는 이름의 메소드가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "fetch라는 메소드가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client app behavior 메시지 조회 fetch라는 메소드가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "fetch API를 통해 GET 요청을 제출해야 합니다 (fetch 메소드는 DOM을 조작하지 않아야 합니다)",
+      "fullTitle": " Chatterbox Client app behavior 메시지 조회 fetch API를 통해 GET 요청을 제출해야 합니다 (fetch 메소드는 DOM을 조작하지 않아야 합니다)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "send라는 메소드가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client app behavior 메시지 추가 send라는 메소드가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "fetch API를 통해 POST 요청을 제출해야 합니다 (send 메소드는 DOM을 조작하지 않아야 합니다)",
+      "fullTitle": " Chatterbox Client app behavior 메시지 추가 fetch API를 통해 POST 요청을 제출해야 합니다 (send 메소드는 DOM을 조작하지 않아야 합니다)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "요청과 함께 메시지를 정확하게 전달해야 합니다",
+      "fullTitle": " Chatterbox Client app behavior 메시지 추가 요청과 함께 메시지를 정확하게 전달해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "clearMessages라는 메소드는 DOM에서 메시지를 지웁니다",
+      "fullTitle": " Chatterbox Client app behavior DOM 조작 메소드 clearMessages라는 메소드는 DOM에서 메시지를 지웁니다",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renderMessage라는 메소드는 DOM에 메시지 하나를 추가합니다",
+      "fullTitle": " Chatterbox Client app behavior DOM 조작 메소드 renderMessage라는 메소드는 DOM에 메시지 하나를 추가합니다",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "app이라는 이름의 객체가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client app이라는 이름의 객체가 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "init 이라는 이름의 메소드가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client init init 이라는 이름의 메소드가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "fetch라는 메소드가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client app behavior 메시지 조회 fetch라는 메소드가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "fetch API를 통해 GET 요청을 제출해야 합니다 (fetch 메소드는 DOM을 조작하지 않아야 합니다)",
+      "fullTitle": " Chatterbox Client app behavior 메시지 조회 fetch API를 통해 GET 요청을 제출해야 합니다 (fetch 메소드는 DOM을 조작하지 않아야 합니다)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "send라는 메소드가 존재해야 합니다",
+      "fullTitle": " Chatterbox Client app behavior 메시지 추가 send라는 메소드가 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "fetch API를 통해 POST 요청을 제출해야 합니다 (send 메소드는 DOM을 조작하지 않아야 합니다)",
+      "fullTitle": " Chatterbox Client app behavior 메시지 추가 fetch API를 통해 POST 요청을 제출해야 합니다 (send 메소드는 DOM을 조작하지 않아야 합니다)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "요청과 함께 메시지를 정확하게 전달해야 합니다",
+      "fullTitle": " Chatterbox Client app behavior 메시지 추가 요청과 함께 메시지를 정확하게 전달해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "clearMessages라는 메소드는 DOM에서 메시지를 지웁니다",
+      "fullTitle": " Chatterbox Client app behavior DOM 조작 메소드 clearMessages라는 메소드는 DOM에서 메시지를 지웁니다",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renderMessage라는 메소드는 DOM에 메시지 하나를 추가합니다",
+      "fullTitle": " Chatterbox Client app behavior DOM 조작 메소드 renderMessage라는 메소드는 DOM에 메시지 하나를 추가합니다",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
