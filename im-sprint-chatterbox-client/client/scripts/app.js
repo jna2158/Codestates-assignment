@@ -105,12 +105,3 @@ app.init();
 if(window.isNodeENV){
   module.exports = app;
 }
-
-
-/* 
-e.preventDefault(); 
-이벤트 실행 후 페이지가 넘어가는 기능을 막는다.
-
-
-
-*/
