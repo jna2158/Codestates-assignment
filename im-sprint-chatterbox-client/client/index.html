@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
     <div id="main">
-      <h1>chatterbox</h1>
-      Room: <select id="roomName">
+      <h1 id = "title">chatterbox</h1>
+        Room: <select id="roomName">
         <option value="0">allchats</option>
         <option value="1">room1</option>
         <option value="2">room2</option>
@@ -15,9 +15,9 @@
       </select>
       <div id="send">
         <form class="submit">
-          <input type="text" class="inputUser" />
-          <textarea class="inputChat"></textarea>
-          <button type="submit" class="post">post</button>
+          <input type="text" class="inputUser" placeholder="Please enter your ID"/>
+          <textarea class="inputChat" placeholder="Please enter a message"></textarea>
+          <button class="post">post</button>
           <button class="clear">clear</button>
         </form>
       </div>

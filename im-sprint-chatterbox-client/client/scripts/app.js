@@ -3,27 +3,18 @@ const app = {
   server: `http://3.36.72.17:3000/${githubID}/messages`,
   init: () => {
     app.fetch().then(data => { //fetch()로 가져온 데이터를 반복문을 이용해서 하나씩 renderMessage라는 함수에 보낸다.
-      for(let message of data) {
-        app.renderMessage(message);
-      }
+      data.forEach(app.renderMessage);
     })
   },
   fetch: (data) => { //서버에서 데이터를 가져오는 역할을 한다.
     return window.fetch(app.server)
     .then(res => res.json())
-    /* 
-    둘다 json 형태로 바꾼다는 사실은 같다.
-    json.parse(res)  자바스크립트에서 제공하는 json
-    res.JSON  fetch에서 제공하는 json
-    */
-    .then(data) //fetch 라는 메소드를 사용할 때 재정의 할 수 있도록 즉, init()의 app.fetch()에서 재정의 하고 싶어서 만들었다. 
-                //fetch를 많이 쓸 것 같으니까 fetch 쓸 때마다 /  fetch에서 쓴 데이터를 어떻게 리턴할까??..  데이터를 받아오게 되는 then 마지막 부분을 인자를 빼버리자
-                //마지막 인자만 콜백함수로 넣어주면 어디서든 쓸 수 있게 한다.
+    .then(data) //init()의 app.fetch()에서 재정의 하고 싶어서 만들었다. / fetch에서 쓴 데이터를 어떻게 리턴할까??..  데이터를 받아오게 되는 then 마지막 부분을 인자를 빼버리자 //마지막 인자만 콜백함수로 넣어주면 어디서든 쓸 수 있게 한다.
   },
   send: (message) => { //데이터를 서버로 보내는 역할을 한다.
     return window.fetch(app.server, {
       method: 'POST',
-      body: JSON.stringify(message), //아까와 달리 res 라는 인자가 없기 때문에 . pasre는 문자열-> 제이슨 stringify는 자바스크립트 객체 => 제이슨 우리는 지금 객체를 넣어줄거ㅣㄴ까 stringify를 쓸거다.
+      body: JSON.stringify(message), //아까와 달리 res 라는 인자가 없기 때문에 . pasre는 문자열-> json stringify는 JS 객체 => json 우리는 지금 객체를 넣어줄거니까 stringify를 쓸거다.
       headers: {
         'Content-Type': 'application/json'
       },
@@ -47,7 +38,9 @@ const app = {
     idbox.innerHTML = message.username;
     messagebox.innerHTML = message.text;
 
-    ulbox.setAttribute('id','chatsList');
+    ulbox.setAttribute('id', 'chatsList');
+    idbox.setAttribute('id', 'user');
+    messagebox.setAttribute('id', 'message');
 
     ulbox.append(idbox, messagebox);
     chatsbox.append(ulbox);
@@ -61,7 +54,7 @@ const app = {
     const roomText = roombox.options[roombox.selectedIndex].text;
     const date = new Date();
     let message = {
-      username: userText,
+      username: userText + ":",
       text: chatText,
       date: String(date),
       roomname: roomText
@@ -91,23 +84,20 @@ const app = {
     return window.fetch(`http://3.36.72.17:3000/${githubID}/clear`, {
       method: 'POST'
     })
-  },
-  handleEventListener: () => {
-    
   }
 };
 
-// //post 버튼을 클릭했을 때 이벤트리스너 연결
-// const postButton = document.querySelector('.post');
-// postButton.onclick = app.writeMessage;
+//post 버튼을 클릭했을 때 이벤트리스너 연결
+const postButton = document.querySelector('.post');
+postButton.onclick = app.writeMessage;
 
-// //방을 변경했을 때 이벤트리스너 연결
-// const roombox = document.querySelector('#roomName');
-// roombox.onchange = app.changeRoom;
+//방을 변경했을 때 이벤트리스너 연결
+const roombox = document.querySelector('#roomName');
+roombox.onchange = app.changeRoom;
 
-// //clear 버튼을 클릭했을 때 이벤트리스너 연결
-// const clearbutton = document.querySelector('.clear');
-// clearbutton.onclick = app.clearAllMessage;
+//clear 버튼을 클릭했을 때 이벤트리스너 연결
+const clearbutton = document.querySelector('.clear');
+clearbutton.onclick = app.clearAllMessage;
 
 app.init();
 

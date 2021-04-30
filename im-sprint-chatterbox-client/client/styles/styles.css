@@ -10,15 +10,27 @@ body {
   width: 500px;
   margin: auto;
   text-align: left;
-  background: white;
+  background: rgb(175, 206, 235);
   padding: 50px 60px;
   border: solid #ddd;
   border-width: 0 1px 1px 1px;
+  border-radius: 5px;
+}
+
+#title {
+  color: #e6e20e;
+  text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
 }
 
 #chatsList {
   height: 60px;
-  background:#e9dcdc
+  background:#eeddf0;
+  border-radius: 10px;
+}
+
+#user {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #main h1 {
@@ -85,12 +97,6 @@ form textarea {
     margin: 5px 0;
     font-size: 120%;
     padding: 10px;
-}
-
-form button {
-    font-size: 120%;
-    height: 30px;
-    width: 100px;
 }
 
 .chat {
