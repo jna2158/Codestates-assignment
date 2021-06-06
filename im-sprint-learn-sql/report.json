@@ -1,0 +1,424 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 29,
+    "passes": 29,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-21T04:57:31.941Z",
+    "end": "2021-05-21T04:57:33.933Z",
+    "duration": 1992
+  },
+  "tests": [
+    {
+      "title": "should be successful by initialize factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful by initialize factoryService instance.",
+      "duration": 55,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be successful to query via factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful to query via factoryService instance.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 3-1. 현재 있는 데이터베이스에 존재하는 모든 테이블 정보를 보기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema Q 3-1. 현재 있는 데이터베이스에 존재하는 모든 테이블 정보를 보기위한 SQL을 작성해주세요.",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 3-2. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema Q 3-2. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 3-3. content 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 content 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema Q 3-3. content 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 content 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-1. user 테이블에 존재하는 모든 컬럼을 포함한 모든 데이터를 확인하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-1. user 테이블에 존재하는 모든 컬럼을 포함한 모든 데이터를 확인하기 위한 SQL을 작성해주세요.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-2. user 테이블에 존재하는 모든 데이터에서 name 컬럼만을 확인하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-2. user 테이블에 존재하는 모든 데이터에서 name 컬럼만을 확인하기 위한 SQL을 작성해주세요.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-3. user 테이블에 데이터를 추가하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-3. user 테이블에 데이터를 추가하기 위한 SQL을 작성해주세요.",
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-4. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이여야 합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-4. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이여야 합니다.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-5. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이 아니여야 합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-5. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이 아니여야 합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-6. content 테이블에 존재하는 모든 데이터에서 title 컬럼만을 찾기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-6. content 테이블에 존재하는 모든 데이터에서 title 컬럼만을 찾기 위한 SQL을 작성해주세요.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-7. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 없더라도, 켄턴츠의 title을 모두 찾아야합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-7. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 없더라도, 켄턴츠의 title을 모두 찾아야합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-8. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 있는 컨텐츠의 title만 찾아야합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-8. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 있는 컨텐츠의 title만 찾아야합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-9. content의 데이터를 수정하기 위한 SQL을 작성해주세요. \n   - title이 database sprint인 content 데이터에서 body를 \"database is very easy\"로 수정해야합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-9. content의 데이터를 수정하기 위한 SQL을 작성해주세요. \n   - title이 database sprint인 content 데이터에서 body를 \"database is very easy\"로 수정해야합니다.",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-10. content의 데이터를 추가하기 위한 SQL을 작성해주세요. \n   - duhyunkim이 작성한 컨텐츠를 추가해주세요. 제목과 본문은 자유입니다. (참고: duhyunkim의 아이디는 1입니다.)",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-10. content의 데이터를 추가하기 위한 SQL을 작성해주세요. \n   - duhyunkim이 작성한 컨텐츠를 추가해주세요. 제목과 본문은 자유입니다. (참고: duhyunkim의 아이디는 1입니다.)",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-1. category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-1. category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-2. content_category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 content_category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-2. content_category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 content_category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-3. role 테이블의 구조를 보기위한 SQL을 작성해주세요. \n   - 요구사항에 맞는 role 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-3. role 테이블의 구조를 보기위한 SQL을 작성해주세요. \n   - 요구사항에 맞는 role 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-4. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-4. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-1. category 테이블에 존재하는 데이터에서 id, name을 찾는 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-1. category 테이블에 존재하는 데이터에서 id, name을 찾는 SQL을 작성해주세요.",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-2. user의 name과 email 그리고 그 user가 속한 role name(컬럼명: roleName)을 찾기 위한 SQL을 작성해주세요. \n    - 속한 role이 없더라도, user의 name과 email,role name을 모두 찾아야합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-2. user의 name과 email 그리고 그 user가 속한 role name(컬럼명: roleName)을 찾기 위한 SQL을 작성해주세요. \n    - 속한 role이 없더라도, user의 name과 email,role name을 모두 찾아야합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-3. 어느 role에도 속하지 않는 user의 모든 컬럼 데이터를 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-3. 어느 role에도 속하지 않는 user의 모든 컬럼 데이터를 찾기위한 SQL을 작성해주세요.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-4. content_category 테이블에 존재하는 모든 칼럼의 데이터를 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-4. content_category 테이블에 존재하는 모든 칼럼의 데이터를 찾기위한 SQL을 작성해주세요.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-5. jiSungPark이 작성한 content의 title을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-5. jiSungPark이 작성한 content의 title을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-6. JiSungPark이 작성한 content의 category name을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-6. JiSungPark이 작성한 content의 category name을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-7. category의 name이 soccer인 content의 title, body, created_at을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-7. category의 name이 soccer인 content의 title, body, created_at을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-8. category의 name이 soccer인 content의 title, body, created_at, user의 name을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-8. category의 name이 soccer인 content의 title, body, created_at, user의 name을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-9. duRiCha가 작성한 글의 개수 (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-9. duRiCha가 작성한 글의 개수 (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-10. 각 user(컬럼명: name)가 작성한 글의 개수 \n      (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-10. 각 user(컬럼명: name)가 작성한 글의 개수 \n      (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should be successful by initialize factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful by initialize factoryService instance.",
+      "duration": 55,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should be successful to query via factoryService instance.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-1. connection test should be successful to query via factoryService instance.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 3-1. 현재 있는 데이터베이스에 존재하는 모든 테이블 정보를 보기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema Q 3-1. 현재 있는 데이터베이스에 존재하는 모든 테이블 정보를 보기위한 SQL을 작성해주세요.",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 3-2. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema Q 3-2. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 3-3. content 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 content 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 3. 데이터베이스 연결과 스키마 part 3-2. schema Q 3-3. content 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    요구사항에 맞는 content 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-1. user 테이블에 존재하는 모든 컬럼을 포함한 모든 데이터를 확인하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-1. user 테이블에 존재하는 모든 컬럼을 포함한 모든 데이터를 확인하기 위한 SQL을 작성해주세요.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-2. user 테이블에 존재하는 모든 데이터에서 name 컬럼만을 확인하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-2. user 테이블에 존재하는 모든 데이터에서 name 컬럼만을 확인하기 위한 SQL을 작성해주세요.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-3. user 테이블에 데이터를 추가하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-3. user 테이블에 데이터를 추가하기 위한 SQL을 작성해주세요.",
+      "duration": 13,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-4. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이여야 합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-4. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이여야 합니다.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-5. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이 아니여야 합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-5. user 테이블에서 특정 조건을 가진 데이터를 찾기위한 SQL을 작성해주세요. \n    조건 : name이 duhyunkim이 아니여야 합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-6. content 테이블에 존재하는 모든 데이터에서 title 컬럼만을 찾기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-6. content 테이블에 존재하는 모든 데이터에서 title 컬럼만을 찾기 위한 SQL을 작성해주세요.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-7. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 없더라도, 켄턴츠의 title을 모두 찾아야합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-7. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 없더라도, 켄턴츠의 title을 모두 찾아야합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-8. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 있는 컨텐츠의 title만 찾아야합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-8. content의 title과 그 컨텐츠를 작성한 user의 name을 찾기 위한 SQL을 작성해주세요. \n    저자가 있는 컨텐츠의 title만 찾아야합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-9. content의 데이터를 수정하기 위한 SQL을 작성해주세요. \n   - title이 database sprint인 content 데이터에서 body를 \"database is very easy\"로 수정해야합니다.",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-9. content의 데이터를 수정하기 위한 SQL을 작성해주세요. \n   - title이 database sprint인 content 데이터에서 body를 \"database is very easy\"로 수정해야합니다.",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 4-10. content의 데이터를 추가하기 위한 SQL을 작성해주세요. \n   - duhyunkim이 작성한 컨텐츠를 추가해주세요. 제목과 본문은 자유입니다. (참고: duhyunkim의 아이디는 1입니다.)",
+      "fullTitle": "part 4 - 스키마와 함께하는 기본 SQL Q 4-10. content의 데이터를 추가하기 위한 SQL을 작성해주세요. \n   - duhyunkim이 작성한 컨텐츠를 추가해주세요. 제목과 본문은 자유입니다. (참고: duhyunkim의 아이디는 1입니다.)",
+      "duration": 8,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-1. category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-1. category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-2. content_category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 content_category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-2. content_category 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 content_category 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-3. role 테이블의 구조를 보기위한 SQL을 작성해주세요. \n   - 요구사항에 맞는 role 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-3. role 테이블의 구조를 보기위한 SQL을 작성해주세요. \n   - 요구사항에 맞는 role 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-1-4. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-1. additional schema Q 5-1-4. user 테이블의 구조를 보기위한 SQL을 작성해주세요. \n    - 요구사항에 맞는 user 테이블을 작성해야만, 테스트를 통과합니다.",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-1. category 테이블에 존재하는 데이터에서 id, name을 찾는 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-1. category 테이블에 존재하는 데이터에서 id, name을 찾는 SQL을 작성해주세요.",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-2. user의 name과 email 그리고 그 user가 속한 role name(컬럼명: roleName)을 찾기 위한 SQL을 작성해주세요. \n    - 속한 role이 없더라도, user의 name과 email,role name을 모두 찾아야합니다.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-2. user의 name과 email 그리고 그 user가 속한 role name(컬럼명: roleName)을 찾기 위한 SQL을 작성해주세요. \n    - 속한 role이 없더라도, user의 name과 email,role name을 모두 찾아야합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-3. 어느 role에도 속하지 않는 user의 모든 컬럼 데이터를 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-3. 어느 role에도 속하지 않는 user의 모든 컬럼 데이터를 찾기위한 SQL을 작성해주세요.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-4. content_category 테이블에 존재하는 모든 칼럼의 데이터를 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-4. content_category 테이블에 존재하는 모든 칼럼의 데이터를 찾기위한 SQL을 작성해주세요.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-5. jiSungPark이 작성한 content의 title을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-5. jiSungPark이 작성한 content의 title을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-6. JiSungPark이 작성한 content의 category name을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-6. JiSungPark이 작성한 content의 category name을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-7. category의 name이 soccer인 content의 title, body, created_at을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-7. category의 name이 soccer인 content의 title, body, created_at을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-8. category의 name이 soccer인 content의 title, body, created_at, user의 name을 찾기위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-8. category의 name이 soccer인 content의 title, body, created_at, user의 name을 찾기위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-9. duRiCha가 작성한 글의 개수 (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-9. duRiCha가 작성한 글의 개수 (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Q 5-2-10. 각 user(컬럼명: name)가 작성한 글의 개수 \n      (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "fullTitle": "part 5 - 추가 요구조건과 스키마 part 5-2. basic sql Q 5-2-10. 각 user(컬럼명: name)가 작성한 글의 개수 \n      (컬럼명: ContentCount)를 출력하기 위한 SQL을 작성해주세요.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
