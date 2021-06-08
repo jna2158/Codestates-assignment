@@ -1,0 +1,112 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type='text'],
+input[type='password'] {
+  background-color: #2a9d8f;
+  border: none;
+  border-bottom: 2px solid white;
+  color: #eee;
+  text-align: center;
+  outline: none;
+  font-size: 1rem;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #264653;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  width: 40vh;
+  background-color: #2a9d8f;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-weight: 900;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  flex: 1;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.passwordField {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.passwordBtn {
+  border: 3px solid #eee;
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.passwordBtn:hover {
+  background-color: #ccc;
+  border: 3px solid #ccc;
+}
+
+.mypageContainer {
+  background-color: white;
+  width: 100vw;
+  height: 90vh;
+  padding: 5%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.item {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.logoutBtn {
+  background-color: black;
+  justify-content: right;
+  color: white;
+  font-size: 1rem;
+  font-weight: 900;
+  width: 80px;
+  height: 40px;
+  margin-left: 20rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}

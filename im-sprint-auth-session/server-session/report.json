@@ -1,0 +1,256 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 17,
+    "passes": 17,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-27T06:43:38.726Z",
+    "end": "2021-05-27T06:43:39.066Z",
+    "duration": 340
+  },
+  "tests": [
+    {
+      "title": "인증서 파일이 존재해야 합니다",
+      "fullTitle": "파일 및 환경 변수 테스트 인증서 파일이 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "환경 변수에 데이터베이스 비밀번호가 존재해야 합니다",
+      "fullTitle": "파일 및 환경 변수 테스트 환경 변수에 데이터베이스 비밀번호가 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "성공적으로 데이터베이스에 연결해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Database 성공적으로 데이터베이스에 연결해야 합니다",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "데이터베이스에 `Users` 테이블이 존재해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Database 데이터베이스에 `Users` 테이블이 존재해야 합니다",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "서버는 https 프로토콜을 사용해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server 서버는 https 프로토콜을 사용해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 요청시 잘못된 사용자 아이디 혹은 비밀번호를 전달할 경우, `not authorized` 메세지가 응답에 포함되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 로그인 요청시 잘못된 사용자 아이디 혹은 비밀번호를 전달할 경우, `not authorized` 메세지가 응답에 포함되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 요청시 정확한 사용자 아이디와 비밀번호를 전달할 경우, `ok` 메세지가 응답에 포함되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 로그인 요청시 정확한 사용자 아이디와 비밀번호를 전달할 경우, `ok` 메세지가 응답에 포함되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "세션 아이디를 전달하기 위한 `connect.sid` 쿠키가 존재해야 합니다 (이 쿠키는 express-session 모듈이 만듭니다)",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 세션 아이디를 전달하기 위한 `connect.sid` 쿠키가 존재해야 합니다 (이 쿠키는 express-session 모듈이 만듭니다)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 Domain 옵션은 `localhost`로 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 Domain 옵션은 `localhost`로 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 Path 옵션은 `/`로 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 Path 옵션은 `/`로 설정되어야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 HttpOnly 옵션이 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 HttpOnly 옵션이 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 Secure 옵션이 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 Secure 옵션이 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 SameSite 옵션은 `none`으로 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 SameSite 옵션은 `none`으로 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 이후 로그아웃를 요청하는 경우, 상태코드 200을 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/logout 로그인 이후 로그아웃를 요청하는 경우, 상태코드 200을 리턴해야 합니다",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그아웃 이후 혹은 로그인 전에 로그아웃을 요청하는 경우, 상태코드 400을 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/logout 로그아웃 이후 혹은 로그인 전에 로그아웃을 요청하는 경우, 상태코드 400을 리턴해야 합니다",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 이후 사용자 정보를 요청하는 경우 상태코드 200 및 `ok` 메세지를 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /users/userinfo 로그인 이후 사용자 정보를 요청하는 경우 상태코드 200 및 `ok` 메세지를 리턴해야 합니다",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인이 되지 않은 상태에서 사용자 정보를 요청하는 경우, 상태코드 400 및 `not authorized` 메세지를 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /users/userinfo 로그인이 되지 않은 상태에서 사용자 정보를 요청하는 경우, 상태코드 400 및 `not authorized` 메세지를 리턴해야 합니다",
+      "duration": 19,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "인증서 파일이 존재해야 합니다",
+      "fullTitle": "파일 및 환경 변수 테스트 인증서 파일이 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "환경 변수에 데이터베이스 비밀번호가 존재해야 합니다",
+      "fullTitle": "파일 및 환경 변수 테스트 환경 변수에 데이터베이스 비밀번호가 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "성공적으로 데이터베이스에 연결해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Database 성공적으로 데이터베이스에 연결해야 합니다",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "데이터베이스에 `Users` 테이블이 존재해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Database 데이터베이스에 `Users` 테이블이 존재해야 합니다",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "서버는 https 프로토콜을 사용해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server 서버는 https 프로토콜을 사용해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 요청시 잘못된 사용자 아이디 혹은 비밀번호를 전달할 경우, `not authorized` 메세지가 응답에 포함되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 로그인 요청시 잘못된 사용자 아이디 혹은 비밀번호를 전달할 경우, `not authorized` 메세지가 응답에 포함되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 요청시 정확한 사용자 아이디와 비밀번호를 전달할 경우, `ok` 메세지가 응답에 포함되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 로그인 요청시 정확한 사용자 아이디와 비밀번호를 전달할 경우, `ok` 메세지가 응답에 포함되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "세션 아이디를 전달하기 위한 `connect.sid` 쿠키가 존재해야 합니다 (이 쿠키는 express-session 모듈이 만듭니다)",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 세션 아이디를 전달하기 위한 `connect.sid` 쿠키가 존재해야 합니다 (이 쿠키는 express-session 모듈이 만듭니다)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 Domain 옵션은 `localhost`로 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 Domain 옵션은 `localhost`로 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 Path 옵션은 `/`로 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 Path 옵션은 `/`로 설정되어야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 HttpOnly 옵션이 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 HttpOnly 옵션이 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 Secure 옵션이 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 Secure 옵션이 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "쿠키 옵션중 SameSite 옵션은 `none`으로 설정되어야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/login 쿠키 옵션 쿠키 옵션중 SameSite 옵션은 `none`으로 설정되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 이후 로그아웃를 요청하는 경우, 상태코드 200을 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/logout 로그인 이후 로그아웃를 요청하는 경우, 상태코드 200을 리턴해야 합니다",
+      "duration": 12,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그아웃 이후 혹은 로그인 전에 로그아웃을 요청하는 경우, 상태코드 400을 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ POST /users/logout 로그아웃 이후 혹은 로그인 전에 로그아웃을 요청하는 경우, 상태코드 400을 리턴해야 합니다",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인 이후 사용자 정보를 요청하는 경우 상태코드 200 및 `ok` 메세지를 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /users/userinfo 로그인 이후 사용자 정보를 요청하는 경우 상태코드 200 및 `ok` 메세지를 리턴해야 합니다",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "로그인이 되지 않은 상태에서 사용자 정보를 요청하는 경우, 상태코드 400 및 `not authorized` 메세지를 리턴해야 합니다",
+      "fullTitle": "Authentication - Server Authentication - Server ⛳️ GET /users/userinfo 로그인이 되지 않은 상태에서 사용자 정보를 요청하는 경우, 상태코드 400 및 `not authorized` 메세지를 리턴해야 합니다",
+      "duration": 19,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
