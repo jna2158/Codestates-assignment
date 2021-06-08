@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-31T12:42:00.153Z",
+    "end": "2021-05-31T12:42:01.102Z",
+    "duration": 949
+  },
+  "tests": [
+    {
+      "title": "GitHub 사용자 인증 링크로 이동해야 합니다",
+      "fullTitle": "Login.js GitHub 사용자 인증 링크로 이동해야 합니다",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token이 상태로 존재해야 합니다",
+      "fullTitle": "App.js access token이 상태로 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "authorization code가 url parameter로 전달될 경우, access token을 서버에서 받아올 수 있어야 합니다",
+      "fullTitle": "App.js authorization code가 url parameter로 전달될 경우, access token을 서버에서 받아올 수 있어야 합니다",
+      "duration": 14,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token을 이용해 GitHub API를 호출하여 사용자 정보를 받아올 수 있어야 합니다",
+      "fullTitle": "Mypage.js access token을 이용해 GitHub API를 호출하여 사용자 정보를 받아올 수 있어야 합니다",
+      "duration": 303,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "사용자 정보가 성공적으로 표시되어야 합니다",
+      "fullTitle": "Mypage.js 사용자 정보가 성공적으로 표시되어야 합니다",
+      "duration": 313,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "인증된 사용자는 resources server로부터 이미지 접근이 가능합니다",
+      "fullTitle": "Mypage.js 인증된 사용자는 resources server로부터 이미지 접근이 가능합니다",
+      "duration": 312,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "GitHub 사용자 인증 링크로 이동해야 합니다",
+      "fullTitle": "Login.js GitHub 사용자 인증 링크로 이동해야 합니다",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token이 상태로 존재해야 합니다",
+      "fullTitle": "App.js access token이 상태로 존재해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "authorization code가 url parameter로 전달될 경우, access token을 서버에서 받아올 수 있어야 합니다",
+      "fullTitle": "App.js authorization code가 url parameter로 전달될 경우, access token을 서버에서 받아올 수 있어야 합니다",
+      "duration": 14,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token을 이용해 GitHub API를 호출하여 사용자 정보를 받아올 수 있어야 합니다",
+      "fullTitle": "Mypage.js access token을 이용해 GitHub API를 호출하여 사용자 정보를 받아올 수 있어야 합니다",
+      "duration": 303,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "사용자 정보가 성공적으로 표시되어야 합니다",
+      "fullTitle": "Mypage.js 사용자 정보가 성공적으로 표시되어야 합니다",
+      "duration": 313,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "인증된 사용자는 resources server로부터 이미지 접근이 가능합니다",
+      "fullTitle": "Mypage.js 인증된 사용자는 resources server로부터 이미지 접근이 가능합니다",
+      "duration": 312,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

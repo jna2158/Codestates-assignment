@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-31T13:37:15.717Z",
+    "end": "2021-05-31T13:37:15.771Z",
+    "duration": 54
+  },
+  "tests": [
+    {
+      "title": "should get clientID through dotenv",
+      "fullTitle": ".env should get clientID through dotenv",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should get clientSecret through dotenv",
+      "fullTitle": ".env should get clientSecret through dotenv",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "authorization callback에 대한 handler에서는 GitHub access token 요청을 처리할 수 있어야 합니다.",
+      "fullTitle": "controller/callback.js authorization callback에 대한 handler에서는 GitHub access token 요청을 처리할 수 있어야 합니다.",
+      "duration": 33,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token을 받아온 후에는, 클라이언트에 응답으로 전달해줘야 합니다.",
+      "fullTitle": "controller/callback.js access token을 받아온 후에는, 클라이언트에 응답으로 전달해줘야 합니다.",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token이 주어지지 않는 경우 접근 권한을 제한해야 합니다.",
+      "fullTitle": "controller/images.js access token이 주어지지 않는 경우 접근 권한을 제한해야 합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token이 주어지는 경우 접근 권한을 부여해야 합니다.",
+      "fullTitle": "controller/images.js access token이 주어지는 경우 접근 권한을 부여해야 합니다.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should get clientID through dotenv",
+      "fullTitle": ".env should get clientID through dotenv",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should get clientSecret through dotenv",
+      "fullTitle": ".env should get clientSecret through dotenv",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "authorization callback에 대한 handler에서는 GitHub access token 요청을 처리할 수 있어야 합니다.",
+      "fullTitle": "controller/callback.js authorization callback에 대한 handler에서는 GitHub access token 요청을 처리할 수 있어야 합니다.",
+      "duration": 33,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token을 받아온 후에는, 클라이언트에 응답으로 전달해줘야 합니다.",
+      "fullTitle": "controller/callback.js access token을 받아온 후에는, 클라이언트에 응답으로 전달해줘야 합니다.",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token이 주어지지 않는 경우 접근 권한을 제한해야 합니다.",
+      "fullTitle": "controller/images.js access token이 주어지지 않는 경우 접근 권한을 제한해야 합니다.",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "access token이 주어지는 경우 접근 권한을 부여해야 합니다.",
+      "fullTitle": "controller/images.js access token이 주어지는 경우 접근 권한을 부여해야 합니다.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
