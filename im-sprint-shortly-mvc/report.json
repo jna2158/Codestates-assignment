@@ -1,0 +1,242 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 16,
+    "passes": 16,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-26T07:59:56.583Z",
+    "end": "2021-05-26T07:59:57.131Z",
+    "duration": 548
+  },
+  "tests": [
+    {
+      "title": "cli를 통해 필요한 파일이 자동으로 만들어졌는지 확인합니다",
+      "fullTitle": "🚀 (1-1) ORM 설정 cli를 통해 필요한 파일이 자동으로 만들어졌는지 확인합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "model/index.js 파일이 유효한지 확인합니다",
+      "fullTitle": "🚀 (1-1) ORM 설정 model/index.js 파일이 유효한지 확인합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "mysql에 접속할 수 있는지 확인합니다",
+      "fullTitle": "🚀 (1-1) ORM 설정 mysql에 접속할 수 있는지 확인합니다",
+      "duration": 46,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델이 존재해야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델이 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델은 요구하는 필드를 갖고 있어야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델은 요구하는 필드를 갖고 있어야 합니다",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델의 각 필드는 정해진 타입으로 생성되어야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델의 각 필드는 정해진 타입으로 생성되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델의 visits 필드는 기본값이 0이어야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델의 visits 필드는 기본값이 0이어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "마이그레이션을 했다면, urls 테이블이 존재해야 합니다",
+      "fullTitle": "🚀 (1-3) 마이그레이션 마이그레이션을 했다면, urls 테이블이 존재해야 합니다",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "links controller 파일이 존재해야 합니다",
+      "fullTitle": "🚀 (2-1) controller 작성 links controller 파일이 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "links controller에는 get, post 메소드가 각각 존재해야 합니다",
+      "fullTitle": "🚀 (2-1) controller 작성 links controller에는 get, post 메소드가 각각 존재해야 합니다",
+      "duration": 73,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "POST /links는 links controller의 post 메소드를 실행합니다",
+      "fullTitle": "🚀 (2-2) router 연결 POST /links는 links controller의 post 메소드를 실행합니다",
+      "duration": 194,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links는 links controller의 get 메소드를 실행합니다",
+      "fullTitle": "🚀 (2-2) router 연결 GET /links는 links controller의 get 메소드를 실행합니다",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "POST /links은 url을 받아 단축 url로 만듭니다",
+      "fullTitle": "🚀 (2-3) controller 구현 POST /links은 url을 받아 단축 url로 만듭니다",
+      "duration": 129,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links는 urls 테이블의 목록을 JSON의 형태로 반환합니다",
+      "fullTitle": "🚀 (2-3) controller 구현 GET /links는 urls 테이블의 목록을 JSON의 형태로 반환합니다",
+      "duration": 16,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links/:id 을 요청하면 url 필드값으로 리디렉션합니다",
+      "fullTitle": "🚀 (2-3) controller 구현 GET /links/:id 을 요청하면 url 필드값으로 리디렉션합니다",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links/:id 을 요청하면, 해당 레코드의 visit count가 1 증가해야 합니다",
+      "fullTitle": "🚀 (2-3) controller 구현 GET /links/:id 을 요청하면, 해당 레코드의 visit count가 1 증가해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "cli를 통해 필요한 파일이 자동으로 만들어졌는지 확인합니다",
+      "fullTitle": "🚀 (1-1) ORM 설정 cli를 통해 필요한 파일이 자동으로 만들어졌는지 확인합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "model/index.js 파일이 유효한지 확인합니다",
+      "fullTitle": "🚀 (1-1) ORM 설정 model/index.js 파일이 유효한지 확인합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "mysql에 접속할 수 있는지 확인합니다",
+      "fullTitle": "🚀 (1-1) ORM 설정 mysql에 접속할 수 있는지 확인합니다",
+      "duration": 46,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델이 존재해야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델이 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델은 요구하는 필드를 갖고 있어야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델은 요구하는 필드를 갖고 있어야 합니다",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델의 각 필드는 정해진 타입으로 생성되어야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델의 각 필드는 정해진 타입으로 생성되어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "url 모델의 visits 필드는 기본값이 0이어야 합니다",
+      "fullTitle": "🚀 (1-2) 모델 생성 url 모델의 visits 필드는 기본값이 0이어야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "마이그레이션을 했다면, urls 테이블이 존재해야 합니다",
+      "fullTitle": "🚀 (1-3) 마이그레이션 마이그레이션을 했다면, urls 테이블이 존재해야 합니다",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "links controller 파일이 존재해야 합니다",
+      "fullTitle": "🚀 (2-1) controller 작성 links controller 파일이 존재해야 합니다",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "links controller에는 get, post 메소드가 각각 존재해야 합니다",
+      "fullTitle": "🚀 (2-1) controller 작성 links controller에는 get, post 메소드가 각각 존재해야 합니다",
+      "duration": 73,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "POST /links는 links controller의 post 메소드를 실행합니다",
+      "fullTitle": "🚀 (2-2) router 연결 POST /links는 links controller의 post 메소드를 실행합니다",
+      "duration": 194,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links는 links controller의 get 메소드를 실행합니다",
+      "fullTitle": "🚀 (2-2) router 연결 GET /links는 links controller의 get 메소드를 실행합니다",
+      "duration": 11,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "POST /links은 url을 받아 단축 url로 만듭니다",
+      "fullTitle": "🚀 (2-3) controller 구현 POST /links은 url을 받아 단축 url로 만듭니다",
+      "duration": 129,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links는 urls 테이블의 목록을 JSON의 형태로 반환합니다",
+      "fullTitle": "🚀 (2-3) controller 구현 GET /links는 urls 테이블의 목록을 JSON의 형태로 반환합니다",
+      "duration": 16,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links/:id 을 요청하면 url 필드값으로 리디렉션합니다",
+      "fullTitle": "🚀 (2-3) controller 구현 GET /links/:id 을 요청하면 url 필드값으로 리디렉션합니다",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "GET /links/:id 을 요청하면, 해당 레코드의 visit count가 1 증가해야 합니다",
+      "fullTitle": "🚀 (2-3) controller 구현 GET /links/:id 을 요청하면, 해당 레코드의 visit count가 1 증가해야 합니다",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
