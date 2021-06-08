@@ -1,0 +1,60 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-24T04:47:38.831Z",
+    "end": "2021-05-24T04:47:40.946Z",
+    "duration": 2115
+  },
+  "tests": [
+    {
+      "title": "데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "주문내역을 데이터베이스에 저장해야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 주문내역을 데이터베이스에 저장해야합니다.",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "duration": 77,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "주문내역을 데이터베이스에 저장해야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 주문내역을 데이터베이스에 저장해야합니다.",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "duration": 77,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
