@@ -1,0 +1,36 @@
+{
+  "name": "auth-token-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "NODE_ENV=test mocha '__tests__/server.test.js' --exit",
+    "report": "NODE_ENV=test mocha '__tests__/server.test.js' --exit --reporter @mochajs/json-file-reporter",
+    "submit": "codestates-submission"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codestates-cc/submission-npm": "^1.1.3",
+    "axios": "^0.21.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "@mochajs/json-file-reporter": "^1.3.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
+}
